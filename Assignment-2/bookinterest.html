@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Book Registration Form</title>
+</head>
+<body>
+	This is Book Registration Form.<br><br>
+	<form action = "record.php" method="POST">
+		<input type="text" name="name" placeholder="Enter your name"><br><br>
+		<textarea placeholder="Address" name = "address"></textarea><br><br>
+		Genres:<br><br>
+		<input type="radio" name="bookType">Fiction<br><br>
+		<input type="radio" name="bookType">Novel<br><br>
+		<input type="radio" name="bookType">Biography<br><br>
+		<input type="radio" name="bookType">Drama<br><br>
+		<input type="radio" name="bookType">Science-fiction<br><br>
+		<input type="radio" name="bookType">Thriller<br><br>
+		<input type="radio" name="bookType">Detective<br><br>
+		Authors:<br>
+		<select>
+			<option>William Shakespeare</option>
+			<option>Arthur Conan Doyle</option>
+			<option>Charles Dickens</option>
+			<option>Rhonda Byrne</option>
+			<option>Robert Frost</option>
+			<option>O. Henry</option>
+			<option>William Wordsworth</option>
+			<option>Robert Burns</option>
+			<option>Chetan Bhagat</option>
+			<option>Robin Sharma</option>
+			<option>J.K. Rowling</option>
+		</select><br><br>
+		<textarea placeholder="Please provide feedback of your last read book" name="feedback"></textarea><br><br>
+		<input type="submit" value="Submit">&nbsp; &nbsp;
+		<input type="reset" value = "Cancel">
+	</form>
+</body>
+</html>

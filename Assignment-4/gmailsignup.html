@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Signup</title>
+	<style type="text/css">
+		*
+		{
+			margin: 0px;
+			padding: 0px;
+		}
+		header
+		{
+			background-color: #E7EEEB;
+			height: 60px;
+			width: 100%;
+		}
+		#google-logo img
+		{
+			float: left;
+			margin-top: 12px ;
+			background-color: #E7EEEB;
+			height: 40px;
+			width: 100px;
+			margin-left: 22px;
+		}
+		#sign-in-button
+		{
+			float: right;
+			margin-top: 18px ;
+			margin-right:22px;
+		}
+		#new-account
+		{
+			color: red;
+			margin-top: 22px;
+			margin-left: 125px;
+			font-size: 22px;
+			margin-bottom: 22px;
+		}
+		#r1
+		{
+			margin-left: 125px;
+		}
+		#r1c1 img
+		{
+			margin-top: 20px;
+			width: 250px;
+			height:200px;	
+		}
+		#r1c2 
+		{
+			margin-left: 270px;
+			margin-top: -205px;
+		}
+		#r1c3 form
+		{
+			
+			float: right;
+			padding:25px;
+			background-color: #E7EEEB;
+			margin-top:-160px;
+			margin-right: 110px;
+		}
+		#r2
+		{
+			margin-left: 125px;
+		}
+		#r2c1 img
+		{
+			width: 250px;
+			height:200px;
+			margin-top: 80px;
+		}
+		#r2c2 
+		{
+			margin-left: 270px;
+			margin-top:-170px; 
+		}
+		#r3
+		{
+			margin-left: 125px;
+		}
+		#r3c1 img
+		{
+			width: 250px;
+			height:200px;
+			margin-top: 80px;
+		}
+		#r3c2 
+		{
+			margin-left: 270px;
+			margin-top:-170px; 
+		}
+		#r4
+		{
+			margin-left: 125px;
+		}
+		#r4c1 img
+		{
+			width: 250px;
+			height:200px;
+			margin-top: 80px;
+		}
+		#r4c2 
+		{
+			margin-left: 270px;
+			margin-top:-170px; 
+		}		
+		#r5
+		{
+			float: right;
+			margin-top: 80px;
+			margin-right: -350px;
+			padding-bottom: 20px;
+		}
+		footer #language
+		{
+			float: right;
+			margin-right: 50px;
+			margin-top: -15px;
+			margin-bottom: 20px;
+
+		}
+
+
+	</style>
+</head>
+<body>
+	<header>
+		<div id = "left-side">
+			<div id = "google-logo">
+				<img src="google1.png" />
+			</div>
+		</div>
+		<div id = "right-side">
+			<div id = "sign-in-button">
+				<button type = "submit">Sign-in</button>
+			</div>
+		</div>
+	</header>
+	<div id = "new-account">
+		<b>Create a new Google Account</b>
+	</div>
+	<div id = "r1">
+		<div id = "r1c1">
+			<img src="google.png">
+		</div>
+		<div id = "r1c2">
+			<b>Your Google Account is<br>more than just Gmail.<br></b>
+			Talk,share,chat,schedule,store,organize,<br>collaborate,discover,create. Use<br>
+			Google products from Gmail to Googele+<br> to YouTube,view your search history, all with<br>one username and password,all backed up<br>all the time and easy to find at <br>Google.com
+		</div>
+		<div id = "r1c3">
+			<form method = "POST" action = "">
+				<b>Name</b><br>
+				<input type = "text" placeholder="First" name =  "firstName">&nbsp;<input type="text" name="lastName" placeholder="Last"><br><br>
+				<b>Choose your username</b><br>
+				<input type="email" name="emailID"><br><br>
+				<b>Create a password</b><br>
+				<input type="password" name="password"><br><br>
+				<b>Confirm your password</b><br>
+				<input type="password" name="cpassword"><br><br>
+				<b>Birthday</b><br>
+				<select>
+					<option>January</option>
+					<option>February</option>
+					<option>March</option>
+					<option>April</option>
+					<option>May</option>
+					<option>June</option>
+					<option>July</option>
+					<option>August</option>
+					<option>September</option>
+					<option>October</option>
+					<option>November</option>
+					<option>December</option>
+				</select>&nbsp;
+				<input type="text" name="day" placeholder="Day">&nbsp;<input type="text" name="year" placeholder="Year"><br><br>
+				<b>Gender</b><br>
+				<input type="radio" name="gender" value="Male">Male
+				<input type="radio" name="gender" value="Female">Female<br><br>
+				<b>Mobile phone</b><br>
+				<input type="text" name="phNo" value="+91"><br><br>
+				<b>Your current email address</b><br>
+				<input type="email" name="cEmailID"><br><br>
+				<b>Prove that you're not a robot</b><br>
+				<input type="checkbox" name="verify">Skip this verification(phone verification may be<br> required)<br><br>
+				<img src="captcha.png"/><br><br>
+				<b>Location</b><br>
+				<select>
+					<option>India</option>
+					<option>USA</option>
+					<option>SriLanka</option>
+					<option>UAE</option>
+					<option>China</option>
+					<option>Russia</option>
+					<option>New Zealand</option>
+					<option>Germany</option>
+					<option>Ausralia</option>
+				</select><br><br>
+				<input type="checkbox" name="agree">I agree to the Google <a href="#">Terms and Services</a> and <br><a href="#">Privacy Policy</a><br><br>
+				<input type="checkbox" name="finalStmt">Google may use my account info to<br> personalize +1's on content and ads on<br> non-Google websites. <a href="#">About personalization.</a>	<br><br>
+				<button type = "submit" style="float: right;">Next step</button>
+			</form>
+		</div>
+	</div>
+	<div id = "r2">
+		<div id = "r2c1">
+			<img src="mobile-image.png">
+		</div>
+		<div id = "r2c2">
+			<b>Take it all with you.</b>
+			A Google account lets you access all your<br>stuff-Gmail,photos,and more-from<br>
+			any device. Search by taking pictures ,or by <br> voice. Get free turn-by-turn navigation,<br>upload your pictures automatically,and<br>even buy things with your phone using <br>Google wallet.
+		</div>
+	</div>	
+	<div id = "r3">
+		<div id = "r3c1">
+			<img src="image.png">
+		</div>
+		<div id = "r3c2">
+			<b>Share a little. Or share a lot.</b>
+			Share selectively with friends,family<br>(maybe even your boss) on Google+. Start<br>
+			a video hangout with friends,text a group all<br> at once ,or just follow posts from people<br>who fascinate you. Your call.
+		</div>
+	</div>	
+	<div id = "r4">
+		<div id = "r4c1">
+			<img src="image1.png">
+		</div>
+		<div id = "r4c2">
+			<b>Work in the future.</b>
+			Get a jump on the next era of<br> doing,well,everything. <br>Watch as colleagues or partners<br>drop in a photo,update a spreadsheet, or<br> improve a paragraph,in real time,from<br>1,000 miles away. Google Docs is free with<br>a Google Account.
+		</div>
+	</div>	
+	<div id = "r5"><a href="#">Learn More</a>
+		about why we ask for this information.
+	</div>
+	<hr style="margin-top: 200px; ">
+	<footer>
+		<div id ="footer-closure">
+			&copy;2013 Google &nbsp; Terms of Service &nbsp; Privacy Policy &nbsp; Help
+		</div>
+		<div id =  "language">
+			<select>
+				<option>English(US)</option>
+				<option>English(UK)</option>
+				<option>Hindi</option>
+				<option>Spanish</option>
+				<option>French</option>
+			</select>
+		</div>
+	</footer>
+</body>
+</html>

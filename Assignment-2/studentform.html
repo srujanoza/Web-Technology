@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Registration Form</title>
+</head>
+<body>
+	This is a student registration form.<br><br>
+	<form action="record.php" method="POST">
+		<input type="text" name="name" placeholder="Enter your name"><br><br>
+		<input type="number" name="enNo" placeholder="Enter Enrollment no:"><br><br>
+		<input type="number" name="rollNo" placeholder="Enter your college roll no"><br><br>
+		Gender:<br>
+		<input type="radio" name="gender">Male<br><br>
+		<input type="radio" name="gender">Female<br><br>
+		Semester:<br>
+		<select>
+			<option>2</option>
+			<option>4</option>
+			<option>6</option>
+			<option>8</option>
+		</select><br><br>
+		Branch:<br>
+		<select>
+			<option>Computer Science</option>
+			<option>Information and Tech.</option>
+			<option>Electronics and Communication</option>
+			<option>Nano</option>
+			<option>Mechanical</option>
+			<option>Electrical</option>
+			<option>Civil</option>
+			<option>Chemical</option>
+			<option>Bio Tech.</option>
+		</select><br><br>
+		<input type="email" name="emailId" placeholder="Enter email"><br><br>
+		Residence:<br>
+		<select>
+			<option>Own house</option>
+			<option>Hostel</option>
+			<option>PG</option>
+			<option>Others</option>
+		</select><br><br>
+		Category:<br>
+		<select>
+			<option>General</option>
+			<option>SC\ST</option>
+			<option>OBC</option>
+			<option>Others</option>
+		</select><br><br>
+		Admission Quota:<br>
+		<select>
+			<option>ACPC</option>
+			<option>Others</option>
+		</select><br><br>
+		Blood Group:<br>
+		<select>
+			<option>A+</option>
+			<option>A-</option>
+			<option>B+</option>
+			<option>B-</option>
+			<option>O+</option>
+			<option>O-</option>
+			<option>AB+</option>
+			<option>AB-</option>
+		</select><br><br>
+		<input type="number" name="aadharNo" placeholder="Enter your Aadhar no."><br><br>
+		<input type="number" name="phNo" placeholder="Enter your phone number"><br><br>
+		<textarea placeholder="Address" name = "address"></textarea><br><br>
+		<input type="number" name="cpi" placeholder="CPI"><br><br>
+		<input type ="text" name="backlog" placeholder="Enter backlogs(if any)"><br><br>
+		<textarea name="achievements" placeholder="Enter your achievements"></textarea><br><br>
+		Mode of Transportation:<br>
+		<select>
+			<option>Bus</option>
+			<option>City Bus</option>
+			<option>Two Wheeler</option>
+			<option>Four Wheeler</option>
+			<option>Van</option>
+			<option>Others</option>
+		</select><br><br>
+		<input type="name" name="fatherName" placeholder="Enter father name"><br><br>
+		<input type="text" name="occupation" placeholder="Enter occupation"><br><br>
+		<input type="number" name="fatherNo" placeholder="Enter father's number"><br><br>
+		<input type="submit" value="Submit">&nbsp; &nbsp;
+		<input type="reset" value = "Cancel">
+	</form>
+</body>
+</html>
